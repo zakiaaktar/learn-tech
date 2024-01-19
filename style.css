@@ -1,0 +1,85 @@
+.small-medium-screen h1{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.small-medium-screen p{
+    display: none;
+}
+
+.small-medium-screen button{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/*-------- Mobile Devices--------- */
+@media only screen and (max-width: 576px) {
+    .nav-bar{
+        text-align: center;
+    }
+    .nav-single-item{
+        background-color: rgb(103, 217, 240);
+        margin-top: 10px;
+        color: white !important;
+        transition: 0.5s;
+    }
+    .nav-icon{
+        background-color: rgb(103, 217, 240);
+        border: none;
+       
+    }
+
+    .nav-single-item:hover{
+        background-color: rgb(19, 40, 45);
+        color: white !important;
+        cursor: pointer;
+    }
+
+    .search-btn{
+        display: none;
+    }
+
+    .mobile-device {
+        flex-direction: column;
+    }
+
+    .register-text {
+        text-align: center;
+    }
+
+    .register-btn {
+        flex-direction: column;
+    }
+}
+
+/*-------- Tablet Devices--------- */
+@media only screen and (min-width:576px) and (max-width:992px) {
+    .nav-bar{
+        text-align: center;
+    }
+    .nav-single-item{
+        background-color: rgb(103, 217, 240);
+        margin-top: 10px;
+        transition: 0.5s;
+    }
+    .nav-icon{
+        background-color: rgb(103, 217, 240);
+    }
+
+    .nav-single-item:hover{
+        background-color: aquamarine;
+        cursor: pointer;
+    }
+
+    .search-btn{
+        display: none;
+    }
+
+    .register-text {
+        text-align: center;
+    }
+
+    .register-btn {
+        flex-direction: column;
+    }
+
+}
